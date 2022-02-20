@@ -1,0 +1,282 @@
+body{
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+}
+.flipsy-img{
+  padding-left: 700px;
+  padding-top: 25px;
+}
+.quote
+{  margin-left: -10px;
+  margin-right: -10px;
+  background-color: aquamarine;
+  padding-left: 20px;
+  text-align: left;
+  font-family: 'Merriweather', serif;
+}
+.quote .navbar{
+  text-align: right;
+  padding-right: 30px;
+}
+.quote .navbar ul{
+  display: inline-block;
+  list-style-type: none;
+}
+.quote .navbar ul li{
+  display: inline-block;
+margin: 20px;}
+ a{
+    text-decoration: none;
+    color: grey;}
+
+/*-------featured products-----*/
+.featuredpro{
+  padding-top: 30px;
+  padding-left: 144px;
+  display: inline-flex;
+  display: block;
+}
+.featuredpro h1
+{
+   text-align: center;
+  color: #8A2BE2;
+}
+.title::after
+{
+  background: orange;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ .col-3{
+  float: left;
+  width: 33.33%;
+  padding-top: 15px;
+}
+.col-3 img{
+  width: 60%;
+  height: 450px;
+}
+.broadline{
+  border-bottom-width: 0;
+    border-top-width: 5px;
+}
+/*----latest products-----*/
+.latestpro{
+  padding-top: 30px;
+  padding-left: 144px;
+  display: inline-flex;
+  display: block;
+}
+.latestpro h1 {
+  text-align: center;
+  color: darkgreen;
+}
+.col-3 p{
+  text-align: left;
+  color: limegreen;
+}
+
+/*--------offers-------*/
+.offers{
+  padding-top: 30px;
+  padding-left: 144px;
+  display: inline-flex;
+  display: block;
+}
+.offers h1 {
+  text-align: center;
+  color: Maroon ;
+}
+/*------last------*/
+.last{
+  background: yellow;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+/*-----prod-----*/
+.prod{
+  background-color:cyan;
+  padding-left: 0;
+}
+.detabpro{
+  padding-top: 40px;
+  text-align: center;
+  cursor: pointer;
+  color: orange;
+  font-size: 180%;
+}
+.prodmean{
+  font-size: 120%;
+}
+/*-----accou-----*/
+.accou{
+  background-color:mistyrose;
+  background-image: url();
+/*  background-color: white; */
+  /* bhai dekh le orange chahiye ya white chahiye*/
+}
+.forsignup{
+  padding-top: 63px;
+  text-align: center;
+
+}
+.dnh{
+  color:maroon;
+}
+.psu{
+  color: seagreen;
+  padding-left: 27px;
+}
+.psu .submit :hover{
+  background-color: blue;
+}
+.accsub{
+  padding-left: 70px;
+}
+.forsignin{
+  padding-top: 63px;
+  text-align: center;
+
+}
+.aha{
+  color:maroon;
+}
+.psi{
+  color: seagreen;
+  padding-left: 27px;
+}
+/*-----con-----*/
+
+.upper{
+  padding-top: 36px;
+  text-align: center;
+  font-size: 270%;
+}
+    .con{   background-color: linen;
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(48, 46, 46);
+
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 25px;
+        }
+        hr{
+            width: 80%;
+        }
+        h2{
+            font-size: 20px;
+        }
+        .contact-items{
+            display: flex;
+            margin: 30px auto;
+            flex-wrap: wrap;
+            align-items: center;
+
+        }
+        .customer-care,.write-us{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 28%;
+            margin: 30px auto;
+            padding: 35px 15px;
+            border-radius: 15px;
+            text-align: center;
+            min-width: 250px;
+
+        }
+        .customer-care{
+            height: 250px;
+            box-shadow: 0 15px 15px green;
+            border: 1px solid green;
+        }
+        .write-us{
+            height: 250px;
+            box-shadow: 0 15px 15px red;
+            border: 1px solid red;
+        }
+
+        p{
+            font-size: 15px;
+        }
+        button{
+            padding: 8px 16px;
+            font-size: 17px;
+            border-radius: 25px;
+            border: none;
+            margin: 15px auto;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+        }
+        button:hover{
+            color: gray;
+        }
+        #cust-care{
+            background: green;
+
+            box-shadow: 0 0 5px black;
+        }
+        #write{
+            background: rgb(187, 15, 15);
+
+            box-shadow: 0 0 5px black;
+        }
+        #sales{
+            background: blue;
+            box-shadow: 0 0 5px black;
+        }
+        a{
+            font-size: 16px;
+        }
+        .customer-care a{
+            color: green;
+            text-shadow: 0 0 2px rgba(73, 129, 80, 0.637);
+        }
+
+/*-----abo-----*/
+.abo{
+  background-color: none;
+}
+
+.div-1{
+  padding-top: 36px;
+  text-align: center;
+  font-size: 160%;
+}
+.div-2{
+  padding-top: 36px;
+  text-align: center;
+  font-size: 126%;
+}
+
+}
+.para-1{
+  padding-left: 160px;
+  font-size: 108%;
+}
+.para-2{
+  padding-left: 460px;
+  font-size: 108%;
+}
+.para-3{
+  padding-left: 730px;
+  font-size: 108%;
+}
+.para-4{
+  padding-left: 1080px;
+  font-size: 108%;
+}
